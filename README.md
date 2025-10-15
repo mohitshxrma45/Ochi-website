@@ -1,12 +1,26 @@
-# React + Vite
+# Ochi-website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ochi-website is a modern and interactive website built with *React.js, **Vite, **Framer Motion, and **Locomotive Scroll*. It provides a clean and efficient template for building websites with smooth animations and scroll effects.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- *Minimal React + Vite Setup*: Clean starting template for fast development.
+- *Framer Motion Animations*: Smooth animations for components and page transitions.
+- *Locomotive Scroll*: Smooth scrolling, parallax effects, and scroll-based interactions.
+- *ESLint Configuration*: Ensures clean and consistent code.
+- *Optimized Production Build*: Fast and lightweight output ready for deployment.
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- *React.js* – For building interactive UIs.
+- *Vite* – Fast and lightweight build tool.
+- *Framer Motion* – For modern, interactive animations.
+- *Locomotive Scroll* – For smooth scrolling and parallax effects.
+- *ESLint* – To maintain code quality.
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mohitshxrma45/Ochi-website.git
