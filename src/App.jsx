@@ -15,7 +15,7 @@ const App = () => {
 
 
 
-   const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Screen size check
@@ -42,20 +42,20 @@ const App = () => {
   }
 
 
-const locomotiveScroll = new LocomotiveScroll();
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <div className='w-full min-h-screen bg-zinc-900  text-white '>
-      <Navbar/>
-      <LandingPage/>
-      <Marquee/>
-      <About/>
-      <Eyes/>
-      <Features/>
-      <Cards/>
-       <Eyes2/>
-      <Footer/>
-     
+      <Navbar />
+      <LandingPage />
+      <Marquee />
+      <About />
+      <Eyes />
+      <Features />
+      {/* <Cards/> */}
+      <Eyes2 />
+      <Footer />
+
     </div>
   )
 }

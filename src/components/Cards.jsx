@@ -16,7 +16,7 @@ const Cards = () => {
             </div>
             <div className='cardContainer flex  gap-5 w-1/2 h-[60vh] '>
                 <div className='card relative rounded-2xl w-1/2 h-full flex items-center justify-center bg-zinc-900'>
-                    <img className='w-42' src="src/svg/logo002.svg" alt="" />
+                    <img className='w-42' src="https://media.istockphoto.com/id/940386832/photo/customer-satisfaction-stars.webp?a=1&b=1&s=612x612&w=0&k=20&c=TptUb4IWkgALDMx-Uc_KfoATq-5SQ-EBb82lNvS70gA=" alt="" />
                     <motion.button animate={{y:[0,-4,0]}}
                     transition={{duration:2,repeat:Infinity,ease:"easeInOut"}}
                     whileHover={{scale:1.05}}  className='hover:bg-zinc-600 transiton-all ease-in-out absolute left-10 bottom-10 text-[#d6d9c9] border-2 px-5 rounded-full py-1'>RATING 5.0 ON CLUTCH
