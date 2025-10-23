@@ -71,7 +71,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="w-full py-20">
+    <div id="ourwork" className="w-full py-20">
       <div className="w-full px-20 border-b-2 border-zinc-700 pb-20">
         <h1 className="text-8xl font-[font4]">Featured Projects</h1>
       </div>

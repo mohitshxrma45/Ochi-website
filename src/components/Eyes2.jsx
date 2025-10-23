@@ -24,7 +24,7 @@ const Eyes2 = () => {
     })
 
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-.1"  className='eyes w-full h-[70vw] rounded-tl-2xl bg-[#CDEA68] rounded-tr-2xl overflow-hidden'>
+        <div id='insights' data-scroll data-scroll-section data-scroll-speed="-.1"  className='eyes w-full h-[70vw] rounded-tl-2xl bg-[#CDEA68] rounded-tr-2xl overflow-hidden'>
             <div className='relative h-full w-full bg-cover text-zinc-800 uppercase  font-[font3] text-[20vw]'>
                 <div className=' leading-[15vw] text-center mt-50'>
                     <h1>Ready</h1>

@@ -35,8 +35,16 @@ const Navbar = () => {
 
         </div>
         <div className='links flex gap-10'>
-            {["Services  ","Our Work "," About Us "," Insights","Contact "].map((item,index) =>(
-            <a key={index} className={`cursor-pointer underline-offset-0 text-lg capitalize  ${index===4 && "ml-24"}`}>{item}</a>
+            {["Our Work "," About Us "," Insights","Contact "].map((item,index) =>(
+            <a key={index} className={`cursor-pointer underline-offset-0 text-lg capitalize  ${index===4 && "ml-24"}`}
+            
+            onClick={()=>{
+              const sectionld=item.toLowerCase().replace(/\s/g,"");
+              const element=document.getElementById(sectionld);
+              element?.scrollIntoView({behavior:"smooth"});
+            }}
+            
+            >{item}</a>
             ))}
         </div>
 

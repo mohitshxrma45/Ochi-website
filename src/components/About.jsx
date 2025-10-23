@@ -4,7 +4,7 @@ import React from 'react'
 const About = () => {
     
     return (
-        <div data-scroll data-scroll-section data-scroll-speed="-.3"  className='w-full  bg-[#CDEA68] rounded-tr-2xl rounded-tl-2xl rounded-l-3xl'>
+        <div id='aboutus' data-scroll data-scroll-section data-scroll-speed="-.3"  className='w-full  bg-[#CDEA68] rounded-tr-2xl rounded-tl-2xl rounded-l-3xl'>
             <div className='w-full pt-25 pl-15'>
                 <h1 className='font-[font5] text-6xl text-zinc-800'>We craft category-defining presentations,
                     brand identities, and digital experiences that drive funding, sales, and market

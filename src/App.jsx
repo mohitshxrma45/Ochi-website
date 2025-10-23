@@ -33,9 +33,9 @@ const App = () => {
     return (
       <div className="flex items-center justify-center h-screen bg-yellow-100 text-center p-4">
         <div className="">
-          <h1 className="text-3xl font-extrabold mb-4">📵 LAPTOP LE LE </h1>
-          <img src="https://i.pinimg.com/736x/6b/19/d9/6b19d9112848479ed830c2ae2bc16e6f.jpg" alt="" />
-          <p className="text-lg">📢🍿🎉</p>
+          <h1 className="text-3xl font-extrabold mb-4">📵 NOT RESPONSIVE YET </h1>
+          <img src="" alt="" />
+          <p className="text-lg">📢🍿🎉 WORK ON PROGRESS</p>
         </div>
       </div>
     );
